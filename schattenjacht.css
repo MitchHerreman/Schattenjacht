@@ -1,0 +1,71 @@
+#spelbord {
+    background-image: url(img/background.jpg);
+    padding: 0;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2 {
+    text-align: center;
+}
+.grass {
+    background-image: url(img/grass.jpg);
+    background-repeat: no-repeat;
+}
+#cornertopleft {
+    background-image: url(img/topleft.png);
+    background-size: 45px 45px;
+}
+#cornertopright {
+    background-image: url(img/topright.png);
+    background-size: 45px 45px;
+}
+#cornerbottomleft {
+    background-image: url(img/bottomleft.png);
+    background-size: 45px 45px;
+}
+#cornerbottomright {
+    background-image: url(img/bottomright.png);
+    background-size: 45px 45px;
+}
+.bordertop {
+    background-image: url(img/top.png);
+    background-repeat: repeat-x;
+}
+.borderleft {
+    background-image: url(img/left.png);
+    background-repeat: repeat-y;
+}
+.borderright {
+    background-image: url(img/right.png);
+    background-repeat: repeat-y;
+}
+.borderbottom {
+    background-image: url(img/bottom.png);
+    background-repeat: repeat-x;
+}
+#player {
+    background-image: url(img/link.png);
+}
+#enemy {
+    background-image: url(img/slime.png);
+    background-repeat: no-repeat;
+}
+.wall {
+    background-image: url(img/rock.png);
+}
+.treasure {
+    background-image: url(img/chest.png);
+}
+.treasureOpen {
+    background-image: url(img/chestopen.png);
+}
+#spelbord td {
+    width: 42px;
+    height: 42px;
+}
